@@ -7,26 +7,12 @@
 </head>
 <body>
     <script>
-    let size=10;
-    row="";
-    for(i=1;i<=size;i++){  
-        for(j=1;j<=size;j++){
-            row+=" " + i*j + "<br>";
-            
+        const str="Tree";
+        let rev=" ";
+        for(i=str.length-1;i>=0;i--){
+            rev+=str[i];
         }
-        
-        row+="";
-        
-    }
-    
-    document.write(row);
-    
-
+        console.log(rev);
     </script>
 </body>
 </html>
-
-
-
-
-
